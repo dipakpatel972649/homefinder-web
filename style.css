@@ -1,0 +1,166 @@
+/* -- Navbar -- */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.06);
+    padding: .7rem 0;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    color: #111;
+    padding: 0.5rem 0.8rem;
+}
+
+.navbar .btn-pill {
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.navbar .btn-order {
+    background: #F8F9FA;
+    border: 1px solid #E9ECEF;
+    color: #111;
+}
+
+/* -- Hero -- */
+.hero {
+    position: relative;
+    background: url() no-repeat center center/cover;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.hero .tag {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    background: rgba(255, 255, 255, .35);
+    border: 1px solid #fff;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    color: #1F4B43;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.hero h1 {
+    color: #1F4B43;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0.3rem 0 0.6rem;
+}
+
+.hero p.lead {
+    color: #1F4B43;
+    font-weight: 400;
+    font-size: 0.98rem;
+    margin-bottom: 1.2rem;
+}
+
+/* -- Search -- */
+.search-wrap {
+    max-width: 720px;
+    margin-inline: auto;
+}
+
+.search-wrap .form-control {
+    border-radius: 999px;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.search-wrap .form-control:focus {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    border-color: #ddd;
+}
+
+.search-wrap .btn-search {
+    border-radius: 999px;
+    padding: 0.9rem 1.1rem;
+    background: #E7C873;
+    border: none;
+    color: #111;
+}
+
+/* -- Chips -- */
+.chips {
+    gap: 0.6rem;
+}
+
+.chip {
+    background: #6e6b6b;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: .55rem .9rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    gap: .45rem;
+}
+
+.chip i {
+    font-size: 1rem;
+}
+
+/* -- Second Part -- */
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-box h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+}
+
+.feature-box p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* -- Property Card -- */
+.property-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+.property-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.property-info {
+    padding: 1.5rem;
+}
+
+.property-info h5 {
+    font-size: 1.2rem;
+}
+
+.property-info p {
+    font-size: 0.9rem;
+}
+
+.property-info .text-danger {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
