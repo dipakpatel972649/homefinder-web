@@ -6,7 +6,7 @@ This project showcases property listings, search functionality, and a clean user
 ---
 
 ## 🚀 Live Demo
-👉 (Add your GitHub Pages link here after deployment)
+👉 https://dipakpatel972649.github.io/homefinder-web/
 
 ---
 
